@@ -29,7 +29,7 @@ function nd_learning_create_taxonomy_courses_difficulty_levels() {
         'difficulty-level-course',
         'post',
         array(
-            'label'=>__('Levels', 'nd-learning'),
+            'label'=>__('Program Type', 'nd-learning'),
             'rewrite'=>array('slug'=>'difficulty-levels-courses'),
             'hierarchical'=>true
         )
@@ -43,7 +43,7 @@ function nd_learning_create_taxonomy_courses_categories() {
         'category-course',
         'post',
         array(
-            'label'=>__('Categories', 'nd-learning'),
+            'label'=>__('Category', 'nd-learning'),
             'rewrite'=>array('slug'=>'categories-courses'),
             'hierarchical'=>true
         )
@@ -53,15 +53,15 @@ add_action('init','nd_learning_create_taxonomy_courses_categories');
 
 //locations
 function nd_learning_create_taxonomy_courses_locations() {
-    register_taxonomy(
-        'location-course',
-        'post',
-        array(
-            'label'=>__('Locations', 'nd-learning'),
-            'rewrite'=>array('slug'=>'locations-courses'),
-            'hierarchical'=>true
-        )
-    );
+    // register_taxonomy(
+    //     'location-course',
+    //     'post',
+    //     array(
+    //         'label'=>__('Locations', 'nd-learning'),
+    //         'rewrite'=>array('slug'=>'locations-courses'),
+    //         'hierarchical'=>true
+    //     )
+    // );
 }
 add_action('init','nd_learning_create_taxonomy_courses_locations');
 
@@ -71,7 +71,7 @@ function nd_learning_create_taxonomy_courses_typologies() {
         'typology-course',
         'post',
         array(
-            'label'=>__('Typologies', 'nd-learning'),
+            'label'=>__('Anticipated Salary', 'nd-learning'),
             'rewrite'=>array('slug'=>'typologies-courses'),
             'hierarchical'=>true
         )
@@ -85,7 +85,7 @@ function nd_learning_create_taxonomy_courses_durations() {
         'duration-course',
         'post',
         array(
-            'label'=>__('Durations', 'nd-learning'),
+            'label'=>__('Duration', 'nd-learning'),
             'rewrite'=>array('slug'=>'durations-courses'),
             'hierarchical'=>true
         )

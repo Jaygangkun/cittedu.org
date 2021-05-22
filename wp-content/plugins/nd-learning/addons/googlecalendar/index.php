@@ -18,6 +18,7 @@ function nd_learning_shortcode_google_calendar_button() {
   $nd_learning_terms_location_course = wp_get_post_terms( get_the_ID(), 'location-course', array("fields" => "all"));
   foreach($nd_learning_terms_location_course as $nd_learning_term_location_course) { $nd_learning_terms_location_course_results .= $nd_learning_term_location_course->name.' '; }
 
+  return;
 
   echo '
 

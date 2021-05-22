@@ -21,7 +21,7 @@ function nd_learning_single_course_related_products() {
 
     $nd_learning_result .= '<div class="nd_learning_section nd_learning_padding_15 nd_learning_box_sizing_border_box">
     
-      <h2><strong>'.__('Related Products','nd-learning').'</strong></h2>
+      <h2><strong>'.__('Related Programs','nd-learning').'</strong></h2>
 
     </div>'; 
 

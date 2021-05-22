@@ -181,7 +181,7 @@ $str .= '
 	                <div class="nd_learning_section nd_learning_height_20"></div> 
 	                <p>'.$nd_learning_excerpt.'</p>
 	                <div class="nd_learning_section nd_learning_height_20"></div> 
-	                <a style="background-color: '.$nd_learning_meta_box_teacher_color.';" class="nd_learning_display_inline_block nd_learning_color_white_important nd_options_first_font nd_learning_padding_8 nd_learning_border_radius_3 nd_learning_font_size_13" href="'.$nd_learning_permalink.'">'.__('VIEW PROFILE','nd-learning').'</a>
+	                <a style="display: none; background-color: '.$nd_learning_meta_box_teacher_color.';" class="nd_learning_display_inline_block nd_learning_color_white_important nd_options_first_font nd_learning_padding_8 nd_learning_border_radius_3 nd_learning_font_size_13" href="'.$nd_learning_permalink.'">'.__('VIEW PROFILE','nd-learning').'</a>
 
 	            </div>
 

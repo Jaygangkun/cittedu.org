@@ -31,7 +31,7 @@ if ( nd_learning_get_course_availability($nd_learning_id) == 0 ) {
     } 
 
     $nd_learning_course_button = '
-        <a class="nd_learning_archive_courses_l2_price nd_learning_top_20 nd_learning_right_20 nd_learning_position_absolute nd_learning_display_inline_block nd_learning_color_white_important nd_learning_bg_greydark nd_options_first_font nd_learning_padding_8 nd_learning_border_radius_4 nd_learning_font_size_13" href="'.$nd_learning_permalink.'">'.$nd_learning_course_price.'</a>
+        <a style="display: none" class="nd_learning_archive_courses_l2_price nd_learning_top_20 nd_learning_right_20 nd_learning_position_absolute nd_learning_display_inline_block nd_learning_color_white_important nd_learning_bg_greydark nd_options_first_font nd_learning_padding_8 nd_learning_border_radius_4 nd_learning_font_size_13" href="'.$nd_learning_permalink.'">'.$nd_learning_course_price.'</a>
     ';  
 
 }

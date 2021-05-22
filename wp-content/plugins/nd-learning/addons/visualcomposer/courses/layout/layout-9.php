@@ -166,7 +166,7 @@ $str .= '
 
                 </div>
 
-                <div class="nd_learning_section nd_learning_padding_20 nd_learning_box_sizing_border_box nd_learning_bg_grey nd_learning_border_top_1_solid_grey">
+                <div class="nd_learning_section nd_learning_padding_20 nd_learning_box_sizing_border_box nd_learning_bg_grey nd_learning_border_top_1_solid_grey" style="display:none">
 
                     <div class="nd_learning_width_33_percentage nd_learning_width_50_percentage_all_iphone nd_learning_float_left">
                         <div class="nd_learning_display_table nd_learning_float_left">

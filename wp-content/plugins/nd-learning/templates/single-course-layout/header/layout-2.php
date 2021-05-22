@@ -16,7 +16,7 @@
                 
                 <h1 class="nd_learning_color_white_important nd_learning_font_size_30 nd_options_second_font nd_learning_font_weight_normal"><?php echo $nd_learning_meta_box_course_header_img_title; ?></h1>
                 <div class="nd_learning_section nd_learning_height_10"></div>
-                <h3 class="nd_learning_color_white_important nd_options_second_font nd_learning_font_weight_normal">
+                <h3 class="nd_learning_color_white_important nd_options_second_font nd_learning_font_weight_normal" style="display: none">
 
                     <?php _e('COURSE PRICE FOR ','nd-learning'); ?>
                     <?php if( nd_learning_get_course_price(get_the_ID()) == 0 ){ _e('FREE','nd-learning'); }else{ echo nd_learning_get_course_price(get_the_ID()).' '.nd_learning_get_course_currency(); } ?>

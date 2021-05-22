@@ -46,8 +46,8 @@ function nd_learning_meta_box()
     <p><strong><?php _e('Max Availability','nd-learning'); ?></strong></p>
     <p><input type="text" name="nd_learning_meta_box_max_availability" id="nd_learning_meta_box_max_availability" value="<?php echo $nd_learning_meta_box_max_availability; ?>" /></p>
 
-    <p><strong><?php _e('Main Teacher','nd-learning'); ?></strong></p>
-    <p>
+    <p style="display: none"><strong><?php _e('Main Teacher','nd-learning'); ?></strong></p>
+    <p style="display: none">
       <select name="nd_learning_meta_box_teacher">
           <?php 
 
@@ -143,8 +143,8 @@ function nd_learning_meta_box()
 
 
 
-    <p><strong><?php _e('Start Date','nd-learning'); ?></strong></p>
-    <p><input id="nd_learning_datepicker" type="text" name="nd_learning_meta_box_date" id="nd_learning_meta_box_date" value="<?php echo $nd_learning_meta_box_date; ?>" /></p>
+    <p style="display: none"><strong><?php _e('Start Date','nd-learning'); ?></strong></p>
+    <p style="display: none"><input id="nd_learning_datepicker" type="text" name="nd_learning_meta_box_date" id="nd_learning_meta_box_date" value="<?php echo $nd_learning_meta_box_date; ?>" /></p>
     
     <script type="text/javascript">
       //<![CDATA[

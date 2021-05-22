@@ -175,7 +175,7 @@ function nd_learning_shortcode_reviews() {
   //START select for items
   $nd_learning_reviews = $wpdb->get_results( "SELECT qnt, id_user, user_first_name FROM $nd_learning_table_name WHERE id_course = $nd_learning_course_id AND action_type = $nd_learning_action_type");
 
-  $nd_learning_result .= '<div class="nd_learning_section" id="nd_learning_single_course_reviews">';
+  $nd_learning_result .= '<div class="nd_learning_section" id="nd_learning_single_course_reviews" style="display: none">';
 
 
   //title section

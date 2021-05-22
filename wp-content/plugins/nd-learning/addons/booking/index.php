@@ -1080,7 +1080,7 @@ function nd_learning_shortcode_attendees() {
   //START select for items
   $nd_learning_attendees = $wpdb->get_results( "SELECT id_user FROM $nd_learning_table_name WHERE id_course = $nd_learning_course_id AND action_type = $nd_learning_action_type");
 
-  $nd_learning_result .= '<div class="nd_learning_section" id="nd_learning_single_course_attendees">';
+  $nd_learning_result .= '<div class="nd_learning_section" id="nd_learning_single_course_attendees" style="display: none">';
 
 
   $nd_learning_meta_box_max_availability = get_post_meta( $nd_learning_course_id, 'nd_learning_meta_box_max_availability', true );
